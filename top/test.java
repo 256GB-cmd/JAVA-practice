@@ -1,9 +1,15 @@
 package  top;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
-       String z = ("개발자가 되기 위한 필수언어 JAVA");
-        System.out.println(z); 
+        long var1 = 10;
+        long var2 = 20L;
+        long var3 = 10000000000L;
+        
+
+        System.out.println(var1);
+        System.out.println(var2);
+        System.out.println(var3);
     }
 }
  
