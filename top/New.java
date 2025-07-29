@@ -2,13 +2,18 @@ package  top;
 
 public class New {
     public static void main(String[] args) {
-       int var1 = 0b1011;
-       int var2 = 0206;
-       int var3 = 365;
-       int var4 = 0xB3;
-        System.out.println("var1: " + var1);
-        System.out.println("var2: " + var2);   
-        System.out.println("var3: " + var3);
-        System.out.println("var4: " + var4);
+    boolean stop = true;
+    if(stop) {
+        System.out.println("중지합니다");
+    } else {
+        System.out.println("시작합니다");
+    }
+    
+    int x =10;
+    boolean result1 = (x == 20);
+    boolean result2 = (x != 20);
+    System.out.println("result1: " + result1);
+    System.out.println("result2: " + result2);
+
     }
 }
