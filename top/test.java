@@ -1,6 +1,6 @@
 package  top;
 
-public class Test {
+public class test {
     public static void main(String[] args) {
     // 정밀도확인
     float var1 = 0.1234567890123456789f;

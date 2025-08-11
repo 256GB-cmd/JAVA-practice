@@ -1,6 +1,6 @@
 package top;
 
-public class Test2 {
+public class test2 {
     public static void main(String[] args) {
     int hour = 3;
     int minute = 30;
